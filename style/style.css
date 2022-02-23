@@ -147,6 +147,309 @@ body {
     text-transform: uppercase;
 }
 
+/* season */
+
+.season {
+    display: flex;
+    max-height: 730px;;
+}
+
+.season__left-side {
+    background-color: #000;
+    color: #fff;
+    padding: 93px 80px;
+    font-family: "Playfair Display";
+}
+
+.season__header .border-bottom {
+    margin-top: 41px;
+    margin-bottom: 50px;
+}
+
+.season__watches {
+    display: flex;
+    margin: 0px -25px;
+}
+
+.season__right-side {
+    background-image: url(/images/season/image.jpg);
+    width: 880px; 
+    height: 730px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: #fff;
+}
+
+.season__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.season__new-collection .border-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* collection */
+
+.collection {
+    display: flex;
+    max-height: 600px;
+}
+
+.collection__left-side {
+    background-image: url(/images/collection/image.jpg);
+    min-width: 880px;
+    min-height: 600px;
+}
+
+.collection__right-side {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    align-items: center;
+}
+
+.collection__header .border-bottom {
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+
+.collection__text {
+    max-width: 471px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+/* receipt */
+
+.receipt {
+    background-color: #000; 
+    color: #fff;
+}
+
+.receipt .container {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.receipt__header .border-bottom {
+    margin-top: 40px;
+    margin-bottom: 41px;
+}
+
+.receipt__watches {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -25px;
+}
+
+.receipt__watches .watch{
+    margin-top: 40px;
+    padding: 0px 11.5px;
+}
+
+/* brands */
+
+.brands {
+    background-color: #0F0F0F;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 74px;
+}
+
+.brands .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.brands__header .border-bottom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.brands__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brands__item:not(:nth-child(4)) {
+    margin-right: 15px;
+}
+
+/* about */
+
+.about {
+    background-image: url(/images/about/background.jpg);
+    height: 400px;
+}
+
+.about .container {
+    color: #fff;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 99px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.about__column {
+    flex: 1 0 33.333%;
+    margin-right: 30px;
+}
+
+.about__column .title {
+    text-align: start;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.about__goods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__good {
+    background-color: #0F0F0F;
+    color: #D0D0D0;
+    padding: 10px 20px;
+    align-self: baseline;
+    margin: 0px 20px 20px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about__good:hover {
+    background-color: #0f0f0fcb;
+}
+
+.about__subscrive-form {
+    margin-top: 37px;
+}
+
+.about__subscrive-form form {
+    display: flex;
+}
+
+.about__subscrive-form input[type=text] {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    padding: 11px 15px;
+    color: #969696;
+    outline: none;
+}
+
+.about__subscrive-form input[type=text]::-webkit-input-placeholder {
+    color: #969696;
+}
+
+.about__subscrive-form input[type=submit] {
+    background-color: #0F0F0F;
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about__subscrive-form input[type=submit]:hover {
+    background-color: #0f0f0fcb;
+}
+
+/* foot */
+
+.foot {
+    color: #D0D0D0;
+    background-color: #0F0F0F;
+}
+
+.foot__text {
+    padding: 17px 0px;
+}
+
+
+
+.watch {
+    padding: 0px 25px;
+    color: #fff;
+    font-family: "Playfair Display";
+}
+
+.watch__image {
+    padding: 56px 23px;
+    background-color: #191B1C;
+}
+
+.watch__name {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.watch__price {
+    color: #D0D0D0;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.border-bottom {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.button {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
 .container {
     padding: 0px 405px;
 }
